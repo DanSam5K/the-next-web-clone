@@ -124,3 +124,10 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+#latest-funding {
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 700;
+}
