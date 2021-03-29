@@ -4,6 +4,46 @@
   display: inline;
 }
 
+/* navbar */
+#nav {
+  display: flex;
+  flex-direction: column;
+}
+
+#nav-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#right-icons {
+  display: flex;
+  justify-content: right;
+}
+
+.header-icon {
+  border-left: 1px solid #eee;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  padding-top: 16px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#logo-img {
+  height: 48px;
+  width: 106px;
+}
+
+#search-icon {
+  color: #9c9999;
+  transform: scaleX(-1);
+  
+}
+
+#menu-icon {
+  color: #ff4422;
+}
 
 /* Highlights */
 .highlight {
