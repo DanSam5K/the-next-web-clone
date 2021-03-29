@@ -193,3 +193,11 @@
   font-weight: 500;
   color: #555;
 }
+
+.funding-entry-text {
+  text-transform: capitalize;
+  font-size: 13px;
+  line-height: 22px;
+  color: #555;
+}
+
