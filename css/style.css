@@ -1,0 +1,22 @@
+/* Mobile version styling */
+/* Fontawesome icons*/
+.fa {
+  display: inline;
+}
+
+
+/* Highlights */
+.highlight {
+}
+
+#highlight-1 {
+  background-image: url("assets/highlight-1.jpg");
+}
+
+#highlight-1 {
+  background-image: url("assets/highlight-2.webp");
+}
+
+#highlight-1 {
+  background-image: url("assets/highlight-3.webp");
+}
