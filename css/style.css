@@ -95,6 +95,17 @@
   height: 250px;
   margin-top: 10px;
   background-image: linear-gradient(white, black);
+  position: relative;
+}
+
+.highlight-image {
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
 .highlight-data-container {
@@ -104,30 +115,81 @@
   vertical-align: baseline;
   font-weight: 400;
   color: hsla(0,0%,100%,.6);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
-#highlight-1 {
-  background-image: url("../assets/highlight-1.jpg");
-  background-position: center;
-  background-reqpeat: no-repeat;
-  opacity: 0.5;
-}
-
-#highlight-2 {
-  background-image: url("../assets/highlight-2.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-#highlight-3 {
-  background-image: url("../assets/highlight-3.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
+/* Funding Section */
 #latest-funding {
   font-family: Avalon, sans-serif;
   font-size: 28px;
   line-height: 32px;
   font-weight: 700;
+  letter-spacing: -.015em;
+  color: #f42;
+  width: 90%;
+  margin: auto;
+}
+
+.funding-entry-banner {
+  position: relative;
+  height: 104px;
+}
+
+.funding-img {
+  height: 60px;
+  width: 60px;
+  box-sizing: border-box;
+  padding-top: 13px;
+  padding-left: 13px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.funding-banner-top {
+  width: 100%;
+  height: 44px;
+  background-color: #f42;
+}
+
+.funding-title-head {
+  color: white;
+  background: #f42;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  margin: 0;
+  font-size: 18px;
+  white-space: nowrap;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.funding-banner-bottom {
+  width: 100%;
+  height: 60px;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  box-sizing: border-box;
+  background: rgba(255,68,34,.08);
+}
+
+.price {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22.5px;
+  vertical-align: baseline;
+  font-weight: 700;
+  color: black;
+}
+
+.sponsor {
+  font-family: Shentox, sans-serif;
+  font-size: 11px;
+  line-height: 16.5px;
+  vertical-align: baseline;
+  letter-spacing: 0.44px;
+  font-weight: 500;
+  color: #555;
 }
