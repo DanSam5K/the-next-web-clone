@@ -7,16 +7,18 @@
 
 /* Highlights */
 .highlight {
+  width: 100%;
+  height: 250px;
 }
 
 #highlight-1 {
-  background-image: url("assets/highlight-1.jpg");
+  background-image: url("../assets/highlight-1.jpg");
 }
 
-#highlight-1 {
-  background-image: url("assets/highlight-2.webp");
+#highlight-2 {
+  background-image: url("../assets/highlight-2.webp");
 }
 
-#highlight-1 {
-  background-image: url("assets/highlight-3.webp");
+#highlight-3 {
+  background-image: url("../assets/highlight-3.webp");
 }
