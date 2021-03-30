@@ -190,7 +190,7 @@ main {
 }
 
 .highlight-gradient {
-  transition: background-color .4s ease;
+  transition: background-color 0.4s ease;
   background: rgba(0, 0, 0, 0.25) url(../assets/highlight-background.webp) no-repeat;
   background-color: rgba(0, 0, 0, 0.25);
   background-size: 100% 100%;
@@ -221,7 +221,6 @@ main {
   line-height: 22px;
   vertical-align: baseline;
   font-weight: 700;
-  vertical-align: baseline;
   color: white;
   margin-bottom: 10px;
 }
