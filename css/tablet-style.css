@@ -13,8 +13,6 @@
 
 /* Navbar */
 #nav {
-  display: flex;
-  flex-direction: column;
   position: fixed;
   top: 0;
   left: 0;
@@ -26,11 +24,44 @@
   display: flex;
   height: 80px;
 }
-.top-nav-link-left {}
+
+#top-nav-links {
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  background-color: #131313;
+}
+
+#top-nav-links-left {
+  display: flex;
+  padding-left: 20px;
+}
 
 .inline-list {
-  display: inline-block;
+  margin-right: 10px;
+  font-family: Avalon, sans-serif;
+  font-size: 15px;
+  color: #aaa;
+  line-height: 23.5px;
+}
 
+#top-nav-links-right {
+  display: flex;
+}
+
+#bot-nav-links {
+  display: flex;
+  padding-left: 20px;
+  height: 48px;
+  background-color: white;
+}
+
+.bot-nav-link {
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #aaa;
+  padding: 18px 10px 0;
 }
 
 #nav-icons {
@@ -43,7 +74,7 @@
 }
 
 #logo-img {
-  height: 48px;
+  height: 80px;
   width: 106px;
 }
 
@@ -83,4 +114,18 @@
 
 #menu-icon {
   display: none;
+}
+
+.nav-message {
+  background-color: #fd3;
+  height: 56px;
+  width: 100%;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: baseline;
+  text-align: center;
+  padding-top: 18px;
+  box-sizing: border-box;
 }
