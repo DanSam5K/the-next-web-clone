@@ -241,7 +241,7 @@
 
 .footer-social-icons {
   width: 50%;
-  margin: 35px 35px;
+  margin: 35px auto 35px;
 }
 .footer-links-social {
   display: flex;
