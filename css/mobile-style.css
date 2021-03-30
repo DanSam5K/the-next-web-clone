@@ -5,7 +5,8 @@
 }
 
 /* Mobile version styling */
-/* Fontawesome icons*/
+
+/* Fontawesome icons */
 .fa {
   display: inline;
 }
@@ -111,12 +112,12 @@
 }
 
 .highlight-gradient {
-    background: rgba(0,0,0,.25) url(../assets/highlight-background.webp) no-repeat;
-    background-color: rgba(0, 0, 0, 0.25);
-    background-size: 100% 100%;
-    display: block;
-    z-index: 2;
-    height: 100%;
+  background: rgba(0, 0, 0, 0.25) url(../assets/highlight-background.webp) no-repeat;
+  background-color: rgba(0, 0, 0, 0.25);
+  background-size: 100% 100%;
+  display: block;
+  z-index: 2;
+  height: 100%;
 }
 
 #highlight-1 {
@@ -148,7 +149,7 @@
   line-height: 16px;
   vertical-align: baseline;
   font-weight: 400;
-  color: hsla(0,0%,100%,.6);
+  color: hsla(0, 0%, 100%, 0.6);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -212,9 +213,9 @@
 .funding-banner-bottom {
   width: 100%;
   height: 60px;
-  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  padding: 10.667px 16px 10.667px 84px;
   box-sizing: border-box;
-  background: rgba(255,68,34,.08);
+  background: rgba(255, 68, 34, 0.08);
 }
 
 .price {
@@ -270,7 +271,6 @@
 }
 
 /* Footer */
-/* Footer */
 .footer-links {
   width: 100%;
   height: 206px;
@@ -285,7 +285,6 @@
 .footer-links-social {
   display: flex;
   justify-content: space-between;
-
 }
 
 .footer-icon-button {
@@ -312,6 +311,8 @@
   height: 123.5px;
   background: black;
   color: #aaa;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-links-menu {
@@ -323,9 +324,4 @@
   text-transform: uppercase;
   display: flex;
   justify-content: space-around;
-}
-
-.footer-legal {
-  display: flex;
-  justify-content: center;
 }

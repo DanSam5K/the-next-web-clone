@@ -9,7 +9,8 @@ main {
 }
 
 /* Mobile version styling */
-/* Fontawesome icons*/
+
+/* Fontawesome icons */
 .fa {
   display: inline;
 }
@@ -103,7 +104,6 @@ main {
   line-height: 1;
   font-family: Shentox, sans-serif;
   text-transform: uppercase;
-
 }
 
 .right-icons {
@@ -190,14 +190,14 @@ main {
 }
 
 .highlight-gradient {
-    transition: background-color .4s ease;
-    background: rgba(0,0,0,.25) url(../assets/highlight-background.webp) no-repeat;
-    background-color: rgba(0, 0, 0, 0.25);
-    background-size: 100% 100%;
-    display: block;
-    will-change: background-color;
-    z-index: 2;
-    height: 100%;
+  transition: background-color .4s ease;
+  background: rgba(0, 0, 0, 0.25) url(../assets/highlight-background.webp) no-repeat;
+  background-color: rgba(0, 0, 0, 0.25);
+  background-size: 100% 100%;
+  display: block;
+  will-change: background-color;
+  z-index: 2;
+  height: 100%;
 }
 
 .highlight-data-container {
@@ -206,7 +206,7 @@ main {
   line-height: 16px;
   vertical-align: baseline;
   font-weight: 400;
-  color: hsla(0,0%,100%,.6);
+  color: hsla(0, 0%, 100%, 0.6);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -221,9 +221,7 @@ main {
   line-height: 22px;
   vertical-align: baseline;
   font-weight: 700;
-  line-height: 22px;
   vertical-align: baseline;
-  font-weight: 700;
   color: white;
   margin-bottom: 10px;
 }
@@ -249,11 +247,11 @@ main {
   font-size: 28px;
   line-height: 32px;
   font-weight: 700;
-  letter-spacing: -.015em;
+  letter-spacing: -0.015em;
   color: #f42;
   width: 90%;
   margin: auto;
-}  
+}
 
 #latest-funding > ul {
   margin-left: 18px;
@@ -273,7 +271,6 @@ main {
   position: relative;
   height: 104px;
 }
-
 
 .funding-img {
   height: 60px;
@@ -308,7 +305,7 @@ main {
   height: 60px;
   padding: 10.6666666667px 16px 10.6666666667px 84px;
   box-sizing: border-box;
-  background: rgba(255,68,34,.08);
+  background: rgba(255, 68, 34, 0.08);
 }
 
 .price {
@@ -350,12 +347,12 @@ main {
 }
 
 .funding-story-link > p > a {
-    vertical-align: baseline;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 400;
-    color: #555;
-    margin-left: 10px;
+  vertical-align: baseline;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  color: #555;
+  margin-left: 10px;
 }
 
 .funding-method {
@@ -378,7 +375,6 @@ main {
 .footer-links-social {
   display: flex;
   justify-content: space-between;
-
 }
 
 .footer-icon-button {
@@ -405,6 +401,8 @@ main {
   height: 123.5px;
   background: black;
   color: #aaa;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-links-menu {
@@ -416,9 +414,4 @@ main {
   text-transform: uppercase;
   display: flex;
   justify-content: space-around;
-}
-
-.footer-legal {
-  display: flex;
-  justify-content: center;
 }
