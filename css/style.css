@@ -198,6 +198,30 @@
   text-transform: capitalize;
   font-size: 13px;
   line-height: 22px;
-  color: #555;
+  color: #000;
 }
 
+.funding-entry-text > i {
+  margin: 0 10px 0 10px;
+  font-size: large;
+  box-sizing: border-box;
+  line-height: 30px;
+  color: #000;
+}
+
+.funding-story-link {
+  border-top: 1px solid #dba89f;
+}
+
+.funding-story-link > p > a {
+    vertical-align: baseline;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #555;
+    margin-left: 10px;
+}
+
+.funding-method {
+  color: #b1a9a9;
+}
