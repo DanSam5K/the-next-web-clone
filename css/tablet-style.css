@@ -242,8 +242,6 @@ main {
   display: none;
 }
 
-/* footer */
-
 /* Footer */
 .footer-links {
   width: 100%;
@@ -298,10 +296,9 @@ main {
   text-transform: uppercase;
   display: flex;
   justify-content: space-around;
-} 
+}
 
 .footer-legal {
   display: flex;
   justify-content: center;
 }
-
