@@ -232,34 +232,21 @@
   color: #b1a9a9;
 }
 
-<<<<<<< HEAD:css/style.css
-.footer {
-  /* background-color: #000; */
-  padding: 10px;
-
-  
-}
-
-.footer-links {
-  display: flex;
-}
-
-
-=======
 /* Footer */
 .footer-links {
-  width: 100%;
-  height: 206px;
+  width: 50%;
+  height: 100px;
   background-color: #131313;
 }
 
 .footer-social-icons {
-  width: 70%;
-  margin: 35px auto 35px auto;
+  width: 50%;
+  margin: 35px 35px;
 }
 .footer-links-social {
   display: flex;
   justify-content: space-between;
+  max-width:  60px;
 }
 
 .footer-icon-button {
@@ -298,4 +285,4 @@
   display: flex;
   justify-content: space-around;
 }
->>>>>>> fb76089c7a1c9e2f1c5c801150726d7313cc2915:css/mobile-style.css
+
