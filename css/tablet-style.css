@@ -10,9 +10,8 @@
   display: inline;
 }
 
-
 /* Navbar */
-#nav {
+#navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -23,6 +22,11 @@
 #navbar-flex-container {
   display: flex;
   height: 80px;
+  width: 100%;
+}
+
+#navbar-links {
+  width: 100%;
 }
 
 #top-nav-links {
@@ -30,6 +34,7 @@
   justify-content: space-between;
   height: 32px;
   background-color: #131313;
+  width: 100%;
 }
 
 #top-nav-links-left {
@@ -38,11 +43,11 @@
 }
 
 .inline-list {
+  margin-top: 7px;
   margin-right: 10px;
   font-family: Avalon, sans-serif;
   font-size: 15px;
   color: #aaa;
-  line-height: 23.5px;
 }
 
 #top-nav-links-right {
@@ -51,9 +56,14 @@
 
 #bot-nav-links {
   display: flex;
+  justify-content: space-between;
   padding-left: 20px;
   height: 48px;
   background-color: white;
+}
+
+.bot-nav-text-links {
+  display: flex;
 }
 
 .bot-nav-link {
@@ -68,7 +78,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 48px;
+  height: 80px;
   background-color: white;
   margin-bottom: 0;
 }
@@ -128,4 +138,20 @@
   text-align: center;
   padding-top: 18px;
   box-sizing: border-box;
+}
+
+/* Highlights */
+.highlight {
+  transition: background-color .4s ease;
+  background: rgba(0,0,0,.25) url(../assets/highlight-gradient.webp) no-repeat;
+  background-color: rgba(0, 0, 0, 0.25);
+  background-size: auto;
+  background-size: 100% 100%;
+  display: block;
+  will-change: background-color;
+  z-index: 2;
+}
+
+.highlight-image {
+  opacity: 0.5;
 }
