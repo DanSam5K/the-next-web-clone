@@ -225,3 +225,16 @@
 .funding-method {
   color: #b1a9a9;
 }
+
+.footer {
+  /* background-color: #000; */
+  padding: 10px;
+
+  
+}
+
+.footer-links {
+  display: flex;
+}
+
+
