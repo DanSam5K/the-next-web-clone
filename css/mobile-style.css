@@ -30,7 +30,11 @@
   margin-bottom: 0;
 }
 
-#right-icons {
+#nav-links {
+  display: none;
+}
+
+.right-icons {
   display: flex;
   justify-content: right;
 }
@@ -53,7 +57,6 @@
   border-right: 1px solid #eee;
   color: #999;
   transform: scaleX(-1);
-
 }
 
 #menu-icon {
