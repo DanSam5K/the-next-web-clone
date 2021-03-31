@@ -4,6 +4,10 @@
   color: inherit;
 }
 
+.mobile-hidden {
+  display: none;
+}
+
 /* Mobile version styling */
 
 /* Fontawesome icons */
