@@ -151,6 +151,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 10px;
+  grid-row-gap: 10px;
   margin: 113px 10px 10px 10px;
   height: 50vh;
   width: 100%;
@@ -284,6 +285,7 @@ main {
 .funding-entry-banner {
   position: relative;
   height: 104px;
+  margin-bottom: 10px;
 }
 
 .funding-img {
@@ -400,7 +402,7 @@ main {
 }
 
 .footer-links-social {
-  margin: 0 auto 1.5em auto;
+  margin: 10px auto 1.5em auto;
   list-style: none;
   text-align: center;
 }
@@ -408,8 +410,8 @@ main {
 .footer-icon-button {
   background-color: #333;
   border-radius: 50%;
-  height: 42px;
-  width: 42px;
+  height: 40px;
+  width: 40px;
   position: relative;
   display: inline-block;
   margin-left: 15px;
@@ -424,18 +426,25 @@ main {
   width: 20px;
   font-size: 18px;
   position: absolute;
-  top: 12px;
-  left: 12px;
+  top: 11px;
+  left: 11px;
 }
 
 .footer-links-menu {
   color: rgb(170, 170, 170);
   font-family: Shentox, sans-serif;
   font-size: 13px;
-  margin-top: 24px;
+  font-weight: 400;
   vertical-align: baseline;
   text-transform: uppercase;
+  margin: 0 auto 0 auto;
+  list-style: none;
   text-align: center;
+}
+
+.footer-links-link {
+  display: inline-block;
+  margin-left: 10px;
 }
 
 .footer-legal {
@@ -446,11 +455,11 @@ main {
   justify-content: center;
 }
 
-
-
-.footer-links-link {
+.footer-legal-logo {
   display: inline-block;
-  margin-left: 20px;
+  height: 9px;
+  width: auto;
+  margin: 1px;
 }
 
 .wrapper {
