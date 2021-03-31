@@ -1,14 +1,23 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# New York Times Article Clone
+# The Next Web Clone
+Microverse HTML and CSS Week 2 Project
+>This We simulated the Next Web page by cloning and building version of the page to respond to different screen sizes.
+>by applying the best practices, related to repositories and front-end code. To create Interfaces (UIs) that will adapt to different devices (screen size).
+> Also learn how to collaborate better with partners.
 
-> Practice project for HTML and CSS positioning
+![ScreenShot](assets/)
 
 ## Built With
 
 - Html,
-- Css
-- Microverse HTML-CSS linter.
+- Css (Media Queries)
+
+## Linters Used:
+
+- Lighthouse
+- Weblint
+- Stylelint
 
 ## Getting Started
 
