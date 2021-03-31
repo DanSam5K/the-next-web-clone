@@ -479,6 +479,7 @@ main {
 }
 
 @media screen and (min-width: 1024px) {
+   
   #latest-funding > h2 {
     float: left;
     line-height: 25px;
@@ -492,14 +493,14 @@ main {
 
  .invisible {
   display: grid;
-}
+  }
 
-.funding-entries-grid {
-  display: grid;
-  margin-left: 20px;
-  margin-right: 20px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 20px;
-}
+  .funding-entries-grid {
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+  }
   
 }
