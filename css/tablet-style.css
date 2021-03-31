@@ -132,16 +132,17 @@ main {
 
 .nav-message {
   background-color: #fd3;
-  height: 30px;
+  height: 43px;
   width: 100%;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   color: #000;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 20px;
   vertical-align: baseline;
   text-align: center;
-  padding-top: 5px;
+  padding: 10px;
   box-sizing: border-box;
+  position: static;
 }
 
 /* Highlights */
