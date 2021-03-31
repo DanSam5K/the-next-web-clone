@@ -2,9 +2,9 @@
 
 # The Next Web Clone
 Microverse HTML and CSS Week 2 Project
->This We simulated the Next Web page by cloning and building version of the page to respond to different screen sizes.
->by applying the best practices, related to repositories and front-end code. To create Interfaces (UIs) that will adapt to different devices (screen size).
-> Also learn how to collaborate better with partners.
+>In this project we simulated the Next Web page by cloning and building version of the page to respond to different screen sizes.
+>By applying best practices related to repositories and front-end code. We created interfaces (UIs) that will adapt to different devices (screen size).
+>We also learn how to collaborate better with partners.
 
 ![ScreenShot](assets/tnw.png)
 
