@@ -80,7 +80,7 @@
   width: 100%;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   color: #000;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 20px;
   vertical-align: baseline;
   text-align: center;
@@ -169,7 +169,8 @@
   letter-spacing: -0.015em;
   color: #f42;
   width: 90%;
-  margin: auto;
+  margin: 20px;
+  position: static;
 }
 
 #latest-funding > ul {

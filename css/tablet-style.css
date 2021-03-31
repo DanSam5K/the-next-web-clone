@@ -149,8 +149,7 @@ main {
 /* Highlights */
 #highlights {
   display: grid;
-  grid-template-columns: 32% 32% 32%;
-  grid-gap: 8px;
+  grid-template-columns: 32.5% 32.5% 32.5%;
   margin: 113px 10px 10px 10px;
   height: 50vh;
   width: 100%;
@@ -163,12 +162,15 @@ main {
 
 #highlight-1 {
   grid-column: 1 / span 2;
-  grid-row: 1 / span 2;
+  grid-row: span 1 / 2;
   background-image: url("../assets/highlight-1.jpg");
   background-color: #000;
   background-size: cover;
   background-position: 50%;
   z-index: 1;
+  height: 61.7vh;
+  position: absolute;
+  width: 63.3vw;
 }
 
 #highlight-2 {
@@ -209,7 +211,7 @@ main {
   vertical-align: baseline;
   font-weight: 400;
   color: hsla(0, 0%, 100%, 0.6);
-  position: absolute;
+  position: static;
   bottom: 0;
   left: 0;
   margin-bottom: 12px;
@@ -238,8 +240,14 @@ main {
 
 /* Fundings section */
 
+#latest-funding {
+  display: block;
+  margin-top: 30vh;
+  
+}
+
 .funding-entry {
-  display: grid;
+  display: block;
   justify-content: space-around;
 }
 
