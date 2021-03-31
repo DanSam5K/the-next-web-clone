@@ -190,6 +190,10 @@
   margin-top: 10px;
 }
 
+.funding-entry {
+  margin-bottom: 38px;
+}
+
 .funding-entry-banner {
   position: relative;
   height: 104px;
@@ -268,6 +272,7 @@
 
 .funding-story-link {
   border-top: 1px solid #dba89f;
+  line-height: 17px;
 }
 
 .funding-story-link > p > a {
@@ -276,7 +281,6 @@
   font-size: 12px;
   font-weight: 400;
   color: #555;
-  margin-left: 10px;
 }
 
 .funding-method {
@@ -331,6 +335,11 @@
 }
 
 .footer-links-menu {
+  color: rgb(170, 170, 170);
+  font-family: Shentox, sans-serif;
+  font-size: 14px;
+  vertical-align: baseline;
+  text-transform: uppercase;
   max-width: 60%;
   margin: 0 auto 0 auto;
   list-style: none;
@@ -340,16 +349,6 @@
 .footer-links-link {
   display: inline-block;
   margin-left: 1px;
-  font-family: Shentox, sans-serif;
-  font-size: 13px;
-}
-
-.footer-links-menu {
-  color: rgb(170, 170, 170);
-  font-family: Shentox, sans-serif;
-  font-size: 14px;
-  vertical-align: baseline;
-  text-transform: uppercase;
 }
 
 .footer-legal {
