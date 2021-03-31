@@ -10,6 +10,12 @@
   }
 }
 
+@media only screen and (max-width: 1214px) {
+  .over-1215 {
+    display: none;
+  }
+}
+
 main {
   width: 100%;
 }
@@ -544,14 +550,14 @@ main {
 }
 
 @media screen and (min-width: 1024px) {
-   
+
   #latest-funding > h2 {
     float: left;
     line-height: 25px;
     display: inline;
-    margin-right: 37%;    
+    margin-right: 37%;
   }
-  
+
   .funding-entries-grid {
     margin-top: 20px;
   }
@@ -567,5 +573,5 @@ main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 20px;
   }
-  
+
 }
