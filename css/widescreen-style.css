@@ -162,15 +162,12 @@ main {
 
 #highlight-1 {
   grid-column: 1 / span 2;
-  grid-row: span 1 / 2;
+  grid-row: 1 / 3;
   background-image: url("../assets/highlight-1.jpg");
   background-color: #000;
   background-size: cover;
   background-position: 50%;
   z-index: 1;
-  height: 61.7vh;
-  position: absolute;
-  width: 63.3vw;
 }
 
 #highlight-2 {
@@ -185,7 +182,7 @@ main {
 
 #highlight-3 {
   grid-column: 3;
-  grid-row: 2;
+  grid-row: 2 / 3;
   background-image: url("../assets/highlight-3.webp");
   background-color: #000;
   background-size: cover;
@@ -211,7 +208,7 @@ main {
   vertical-align: baseline;
   font-weight: 400;
   color: hsla(0, 0%, 100%, 0.6);
-  position: static;
+  position: absolute;
   bottom: 0;
   left: 0;
   margin-bottom: 12px;
@@ -239,16 +236,22 @@ main {
 }
 
 /* Fundings section */
-
 #latest-funding {
   display: block;
-  margin-top: 30vh;
+  margin: 30vh 0 0 0;
+  width: 100%;
+}
 
+.funding-entries-grid {
+  display: grid;
+  margin-left: 20px;
+  margin-right: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
 }
 
 .funding-entry {
-  display: block;
-  justify-content: space-around;
+  background-color: #fffaf8;
 }
 
 #funding-title {
@@ -258,22 +261,26 @@ main {
   font-weight: 700;
   letter-spacing: -0.015em;
   color: #f42;
-  width: 90%;
-  margin: auto;
+  margin-left: 20px;
 }
 
 #latest-funding > ul {
-  margin-left: 18px;
+  margin-left: 20px;
   align-items: center;
 }
 
 #latest-funding > ul > li {
   display: inline;
-  border-right: 1px solid #f42;
   color: #f42;
   line-height: 32px;
   align-self: center;
+}
+
+.inner-funding-option {
+  border-right: 1px solid #f42;
+  border-left: 1px solid #f42;
   padding: 0 15px 0 15px;
+  margin: 0 15px 0 15px;
 }
 
 .funding-entry-banner {
@@ -338,21 +345,30 @@ main {
 
 .funding-entry-text {
   text-transform: capitalize;
+  font-weight: 400;
   font-size: 13px;
   line-height: 22px;
-  color: #000;
+  color: #858585;
 }
 
 .funding-entry-text > i {
   margin: 0 10px 0 10px;
   font-size: large;
   box-sizing: border-box;
-  line-height: 30px;
   color: #000;
 }
 
 .funding-story-link {
+  margin-top: 15px;
+  padding-top: 15px;
   border-top: 1px solid #dba89f;
+  margin-bottom: 30px;
+}
+
+.funding-story-link > p {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
 }
 
 .funding-story-link > p > a {
@@ -361,7 +377,7 @@ main {
   font-size: 12px;
   font-weight: 400;
   color: #555;
-  margin-left: 10px;
+  margin-left: 0;
 }
 
 .funding-method {
@@ -377,7 +393,7 @@ main {
 
 .footer-social-icons {
    margin-left: auto;
-   margin-right: auto; 
+   margin-right: auto;
    padding-top: 35px;
    padding-bottom: 35px;
 }
@@ -443,4 +459,3 @@ main {
 .wrapper > span {
   display: inline;
 }
-
