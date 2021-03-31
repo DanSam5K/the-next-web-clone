@@ -88,7 +88,7 @@ main {
   margin-bottom: 0;
 }
 
-.logo-img {
+#tnw-logo-background {
   display: none;
   height: 80px;
   width: 106px;
@@ -243,7 +243,7 @@ main {
 #latest-funding {
   display: block;
   margin-top: 30vh;
-  
+
 }
 
 .funding-entry {
