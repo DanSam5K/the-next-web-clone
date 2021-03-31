@@ -51,7 +51,7 @@ On GitHub bash
 👤 **Lucas Ferrari Soto**
 
 - GitHub: [@notlfish](https://github.com/notlfish)
-- Twitter: [@twitterhandle](https://twitter.com/LucasFerrariSo1)
+- Twitter: [@LucasFerrariSo1](https://twitter.com/LucasFerrariSo1)
 - LinkedIn: [LinkedIn](https://linkedin.com/lucas-mauricio-ferrari-soto-472a3515a)
 
 👤 **Daniel Samuel**
