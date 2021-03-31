@@ -6,7 +6,7 @@ Microverse HTML and CSS Week 2 Project
 >by applying the best practices, related to repositories and front-end code. To create Interfaces (UIs) that will adapt to different devices (screen size).
 > Also learn how to collaborate better with partners.
 
-![ScreenShot](assets/tnw.PNG)
+![ScreenShot](assets/tnw.png)
 
 ## Built With
 
