@@ -9,7 +9,7 @@
 }
 
 .over-1215 {
-    display: hidden;
+  display: none;
 }
 
 /* Mobile version styling */
@@ -306,10 +306,10 @@
 }
 
 .footer-social-icons {
-   margin-left: auto;
-   margin-right: auto;
-   padding-top: 35px;
-   padding-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .footer-links-social {

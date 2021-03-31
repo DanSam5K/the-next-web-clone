@@ -256,7 +256,6 @@ main {
     background: transparent url("../assets/highlight-red-gradient.webp") no-repeat;
     background-position-x: 0%;
     background-position-y: 0%;
-    background-size: auto;
     background-position: 0 0;
     background-size: cover;
     bottom: 4px;
@@ -282,7 +281,7 @@ main {
   .highlight-title-1 {
     line-height: 60px;
     font-size: 56px;
-    margin-bottom: .25em;
+    margin-bottom: 0.25em;
     font-weight: 700;
     letter-spacing: -0.015em;
     text-align: left;
@@ -466,10 +465,10 @@ main {
 }
 
 .footer-social-icons {
-   margin-left: auto;
-   margin-right: auto;
-   padding-top: 35px;
-   padding-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .footer-links-social {
@@ -550,7 +549,6 @@ main {
 }
 
 @media screen and (min-width: 1024px) {
-
   #latest-funding > h2 {
     float: left;
     line-height: 25px;
@@ -558,20 +556,16 @@ main {
     margin-right: 37%;
   }
 
+  .invisible {
+    display: grid;
+  }
+
   .funding-entries-grid {
     margin-top: 20px;
-  }
-
- .invisible {
-  display: grid;
-  }
-
-  .funding-entries-grid {
     display: grid;
     margin-left: 20px;
     margin-right: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 20px;
   }
-
 }
