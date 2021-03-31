@@ -21,7 +21,7 @@ Microverse HTML and CSS Week 2 Project
 
 ## Live Demo
 
-- Project [Live Demo Link](https://notlfish.github.io/times-article-clone/)
+- Project [Live Demo Link](https://dansam5k.github.io/the-next-web-clone/)
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ Microverse HTML and CSS Week 2 Project
 
 #### Setup
 
-On GitHub bash 
+On GitHub bash
     _git clone https://github.com/DanSam5K/the-next-web-clone.git_
 
 #### Usage
