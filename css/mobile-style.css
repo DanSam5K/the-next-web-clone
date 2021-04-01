@@ -486,10 +486,11 @@
 }
 
 .category-content{
-    background-image: url("../assets/highlight-background.webp");
+    background-image: url("../assets/category2.webp");
     padding: 40vh 2vh 2vh 2vh;
     right: 0;
     z-index: 3;
+    width: 100%;
 }
 
 .category-content > h4 {
@@ -514,6 +515,11 @@
     color: #fff;
     font-size: 13px;
     pointer-events: none;
+}
+
+.cat-small-image > img {
+ width: 96px;
+ height: 96px;
 }
 
 .category-content > h3 {
