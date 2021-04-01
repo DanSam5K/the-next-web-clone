@@ -190,7 +190,7 @@
   position: static;
 }
 
-#latest-funding > ul {
+.latest-funding-header > ul {
   font-size: 14px;
   line-height: 25px;
   font-weight: 400;
