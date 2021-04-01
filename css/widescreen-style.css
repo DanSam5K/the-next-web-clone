@@ -321,22 +321,39 @@ main {
 }
 
 .latest-funding-header {
-  display: flex;
-  justify-content: space-between;
   margin-left: 20px;
   margin-right: 20px;
 }
 
 .latest-funding-header > ul {
   list-style: none;
-  display: flex;
- }
+}
 
 .latest-funding-header > ul > li {
   display: inline;
   color: #f42;
   line-height: 32px;
   align-self: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .latest-funding-header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .latest-funding-header > ul {
+    list-style: none;
+  }
+
+  .latest-funding-header > ul > li {
+    display: inline;
+    color: #f42;
+    line-height: 32px;
+    align-self: center;
+  }
 }
 
 .inner-funding-option {
