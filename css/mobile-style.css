@@ -385,3 +385,50 @@
 .wrapper > span {
   display: block;
 }
+
+/* catgeroy */
+.category-wrapper {
+  /* background-color: brown; */
+  margin-top: 2px;
+}
+
+.category-header {
+    outline: none;
+    vertical-align: baseline;
+    font-family: Avalon, sans-serif;
+    font-size: 28px;
+    letter-spacing: -.015em;
+    color: #f42;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 14px;
+}
+
+.category-header > h2 > a {
+    font-size: 100%;
+    color: #f42;
+    text-decoration: none;
+}
+
+.category-item {
+    background-color: burlywood;
+    color: #555;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    outline: none;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    list-style: none;
+}
+
+.category-content{
+    background-image: url("../assets/highlight-background.webp");
+    padding: 40vh 2vh 2vh 2vh;
+    right: 0;
+    z-index: 3;
+}
