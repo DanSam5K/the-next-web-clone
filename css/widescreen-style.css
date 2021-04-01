@@ -311,18 +311,6 @@ main {
   width: 100%;
 }
 
-.funding-entries-grid {
-  display: grid;
-  margin-left: 20px;
-  margin-right: 20px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 20px;
-}
-
-.funding-entry {
-  background-color: #fffaf8;
-}
-
 #funding-title {
   font-family: Avalon, sans-serif;
   font-size: 28px;
@@ -330,14 +318,21 @@ main {
   font-weight: 700;
   letter-spacing: -0.015em;
   color: #f42;
+}
+
+.latest-funding-header {
+  display: flex;
+  justify-content: space-between;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
-#latest-funding > ul {
-  margin-left: 30px;
-}
+.latest-funding-header > ul {
+  list-style: none;
+  display: flex;
+ }
 
-#latest-funding > ul > li {
+.latest-funding-header > ul > li {
   display: inline;
   color: #f42;
   line-height: 32px;
@@ -349,6 +344,18 @@ main {
   border-left: 1px solid #f42;
   padding: 0 15px 0 15px;
   margin: 0 15px 0 15px;
+}
+
+.funding-entries-grid {
+  display: grid;
+  margin-left: 20px;
+  margin-right: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.funding-entry {
+  background-color: #fffaf8;
 }
 
 .funding-entry-banner {
