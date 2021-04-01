@@ -355,6 +355,7 @@
 /* Footer */
 .footer {
   width: 100%;
+  margin-top: 55px;
 }
 
 .footer-icons {
@@ -602,4 +603,63 @@
     padding: 6px 0 6px 14px;
     position: relative;
     text-decoration: none;
+}
+
+/* Latest deals */
+#latest-deals {
+  margin: 50px 20px 0 20px;
+}
+
+.latest-deals-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.section-options {
+  color: #f42;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.deals-entry {
+  display: flex;
+  margin-top: 13px;
+}
+
+.deals-image {
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+}
+
+.deals-text {
+  padding-left: 12px;
+}
+
+.deals-title {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.deals-old-price {
+  display: inline-block;
+  color: rgb(170, 170, 170);
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  text-decoration: line-through rgb(170, 170, 170);
+}
+
+.deals-new-price {
+  display: inline-block;
+  color: rgb(85, 85, 85);
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
 }
