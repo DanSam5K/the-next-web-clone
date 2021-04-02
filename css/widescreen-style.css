@@ -481,15 +481,6 @@ main {
   font-weight: 400;
 }
 
-.funding-story-link > p > a {
-  vertical-align: baseline;
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: 400;
-  color: #555;
-  margin-left: 0;
-}
-
 .funding-method {
   color: #b1a9a9;
 }
@@ -518,26 +509,6 @@ main {
   margin-bottom: 15px;
 }
 
-.category-image {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-
-.category-gradient {
-  height: 100%;
-  width: 100%;
-  background: transparent url(../assets/categories-gradient.webp) no-repeat;
-  background-size: 100% 100%;
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 0;
-}
-
 .sort-time {
   vertical-align: baseline;
   font-family: Shentox, sans-serif;
@@ -556,7 +527,16 @@ main {
   position: relative;
   text-decoration: none;
   width: 48vw;
-} 
+}
+
+.funding-story-link > p > a {
+  vertical-align: baseline;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  color: #555;
+  margin-left: 0;
+}
 
 .cat-bottom-item > h4 > a {
   font-size: 100%;
