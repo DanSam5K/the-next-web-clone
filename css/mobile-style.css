@@ -246,7 +246,7 @@
 .latest-funding-header > ul {
   color: #f42;
   font-size: 14px;
-  line-height: 25px;
+  line-height: 30px;
   font-weight: 400;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -645,7 +645,7 @@
   display: inline-block;
   color: rgb(170, 170, 170);
   font-size: 12px;
-  line-height: 18px;
+  line-height: 22px;
   font-weight: 400;
   text-decoration: line-through rgb(170, 170, 170);
 }
@@ -655,6 +655,6 @@
   color: rgb(85, 85, 85);
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 22px;
   font-weight: 400;
 }

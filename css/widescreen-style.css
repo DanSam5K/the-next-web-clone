@@ -325,6 +325,17 @@ main {
   margin: 0 4px;
 }
 
+.credits-list {
+  padding-top: 5px;
+  color: rgb(170, 170, 170);
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  vertical-align: baseline;
+  font-weight: 400;
+  list-style: none;
+}
+
 .news-credits-time {
   padding-top: 5px;
 }
@@ -474,11 +485,13 @@ main {
 }
 
 /* Categories */
-.categories-grid {
-  display: grid;
-  margin: 0 20px 20px 20px;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 20px;
+@media only screen and (max-width: 1023px) {
+  .categories-grid {
+    display: grid;
+    margin: 0 20px 20px 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+  }
 }
 
 .category-wrapper {
@@ -514,7 +527,6 @@ main {
   display: block;
   position: relative;
   text-decoration: none;
-  width: 48vw;
 }
 
 .funding-story-link > p > a {
@@ -608,7 +620,6 @@ main {
   background-color: rgba(255, 68, 34, 0.06);
   margin: 2px 0;
   justify-content: space-between;
-  width: 50vw;
 }
 
 .cat-bottom-item {
@@ -863,8 +874,8 @@ main {
   .latest-funding-header {
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: max(20px, 5%);
+    margin-right: max(20px, 5%);
   }
 
   .latest-funding-header > ul {
@@ -908,7 +919,7 @@ main {
     position: absolute;
     z-index: 5;
     color: #fff;
-    width: 35vw;
+    width: 60%;
   }
 
   .highlight-title-1 {
@@ -942,7 +953,6 @@ main {
     float: left;
     line-height: 25px;
     margin-right: 10%;
-    width: 50vw;
   }
 
   #latest-funding > ul {
@@ -955,33 +965,23 @@ main {
 
   .funding-entries-grid {
     display: grid;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: max(20px, 5%);
+    margin-right: max(20px, 5%);
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 20px;
   }
 
   .categories-grid {
     display: grid;
-    margin: 0 20px 20px 20px;
+    margin-bottom: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px;
   }
 
-  .cat-extra-info > li {
-    width: 30vw;
-  }
-  
-  .cat-extra-info > a {
-    width: 30vw;
-  }
-  
   .category-content {
-    width: 30vw;
-  }
-  
-  .cat-content-bottom {
-    width: 30vw;
+    height: 22.5vw;
+    position: relative;
+    box-sizing: border-box;
   }
 
   #latest-deals-grid {
@@ -998,6 +998,21 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+  }
+
+  #latest-news {
+    margin-right: max(20px, 5%);
+    margin-left: max(20px, 5%);
+  }
+
+  #categories {
+    margin-right: max(20px, 5%);
+    margin-left: max(20px, 5%);
+  }
+
+  #latest-deals {
+    margin-right: max(20px, 5%);
+    margin-left: max(20px, 5%);
   }
 
   #latest-news-grid {
