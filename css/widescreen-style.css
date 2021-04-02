@@ -1019,8 +1019,8 @@ main {
   }
 
   .deals-image {
-  height: 15vw;
-  width: 100%;
-  object-fit: cover;
-}
+    height: 15vw;
+    width: 100%;
+    object-fit: cover;
+  }
 }
