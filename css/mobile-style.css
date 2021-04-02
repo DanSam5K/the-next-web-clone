@@ -455,7 +455,7 @@
   color: #f42;
   font-weight: 700;
   line-height: 1.1;
-  padding: 20px 0 0 20px
+  padding: 20px 0 0 0;
 }
 
 .category-header > h2 > a {
@@ -519,13 +519,12 @@
   font-size: 20px;
 }
 
-
 .sort-time {
   vertical-align: baseline;
   font-family: Shentox, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   line-height: 1.5;
   color: #fff;
   font-size: 11px;
