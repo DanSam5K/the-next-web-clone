@@ -874,8 +874,8 @@ main {
   .latest-funding-header {
     display: flex;
     justify-content: space-between;
-    margin-left: max(20px, 5%);
-    margin-right: max(20px, 5%);
+    margin-left: max(20px, 5vw);
+    margin-right: max(20px, 5vw);
   }
 
   .latest-funding-header > ul {
@@ -965,8 +965,8 @@ main {
 
   .funding-entries-grid {
     display: grid;
-    margin-left: max(20px, 5%);
-    margin-right: max(20px, 5%);
+    margin-left: max(20px, 5vw);
+    margin-right: max(20px, 5vw);
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 20px;
   }
@@ -989,11 +989,7 @@ main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 20px;
   }
-
-  #latest-deals {
-    margin: 50px 20px 0 20px;
-  }
-
+  
   .latest-deals-header {
     display: flex;
     justify-content: space-between;
@@ -1006,13 +1002,14 @@ main {
   }
 
   #categories {
-    margin-right: max(20px, 5%);
-    margin-left: max(20px, 5%);
+    margin-right: max(20px, 5vw);
+    margin-left: max(20px, 5vw);
   }
 
   #latest-deals {
-    margin-right: max(20px, 5%);
-    margin-left: max(20px, 5%);
+    margin-right: max(20px, 5vw);
+    margin-left: max(20px, 5vw);
+    margin-top: 50px;
   }
 
   #latest-news-grid {
