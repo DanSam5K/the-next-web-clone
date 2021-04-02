@@ -432,8 +432,8 @@ main {
 }
 
 /* Category section */
-#categories {
-  margin: 50px 20px 0 20px;
+.category-wrapper {
+  margin: 0 20px 20px 20px;
 }
 
 .categories-grid {
@@ -451,7 +451,7 @@ main {
   color: #f42;
   font-weight: 700;
   line-height: 1.1;
-  padding: 20px 0 0 20px
+  padding: 20px 0 0 0;
 }
 
 .category-header > h2 > a {
@@ -460,29 +460,11 @@ main {
   text-decoration: none;
 }
 
-.category-item {
-  background-color: burlywood;
-  color: #555;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  outline: none;
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-  list-style: none;
-}
-
 .category-content {
-  margin: 0 20px;
-  padding: 20px 0;
   height: 60vh;
   position: relative;
   box-sizing: border-box;
-  width: 30vw;
+  width: 50vw;
 }
 
 .category-image {
@@ -545,24 +527,24 @@ main {
   pointer-events: none;
 }
 
-.cat-small-image > img {
-  height: 80px;
-  width: 70px;
+.cat-small-image {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
 }
 
 .cat-content-bottom {
   display: flex;
-  background-color: rgba(255,68,34,.06);
+  background-color: rgba(255, 68, 34, 0.06);
+  margin: 2px 0;
   justify-content: space-between;
-  width: 30vw;
-  margin-left: 2vw;
+  width: 50vw;
 }
 
 .cat-bottom-item {
   color: #555;
   font-size: 100%;
   display: block;
-  flex: 1;
   overflow: hidden;
   padding: 10px 14px 0;
 }
@@ -598,30 +580,35 @@ main {
 .more-cat-info {
   color: #555;
   width: 31vw;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .cat-extra-info {
-  color: #f42;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.5;
-  border-bottom: 1px solid #eee;
-  width: 32vw; 
-}
-
-.cat-extra-info > a {
   color: #555;
   display: block;
   padding: 6px 0 6px 14px;
   position: relative;
   text-decoration: none;
+  border-bottom: 1px solid #eee;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 49vw;
 }
 
+.cat-extra-info > a {
+  color: #555;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  width: 48vw;
+} 
+
 .orange-bullet {
-  margin-right: 10px;
+  display: inline-block;
   color: #f42;
-  margin-left: 0;
-  padding: 0;
+  margin-right: 10px;
+  margin-left: -15px;
 }
 
 /* latest deals */
