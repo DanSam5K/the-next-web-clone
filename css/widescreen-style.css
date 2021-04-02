@@ -24,8 +24,6 @@ main {
   width: 100%;
 }
 
-/* Mobile version styling */
-
 /* Fontawesome icons */
 .fa {
   display: inline;
@@ -202,7 +200,6 @@ main {
   grid-row-gap: 10px;
   margin: 113px 10px 10px 10px;
   height: 50vh;
-  width: 100%;
 }
 
 .highlight {
@@ -288,32 +285,28 @@ main {
   font-size: 28px;
   line-height: 32px;
   font-weight: 700;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.42px;
   color: #f42;
   margin-bottom: 15px;
 }
 
 #latest-news {
-  margin: 66px 15px 0 30px;
+  margin: 66px 20px 0 20px;
 }
 
 #latest-news-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 100vw;
+  grid-column-gap: 20px;
 }
 
 .news-entry {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  flex-grow: inherit;
   margin-top: 15px;
 }
 
 .news-image {
-  height: 150px;
-  width: 250px;
+  height: 15vw;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -409,7 +402,7 @@ main {
 /* Fundings section */
 #latest-funding {
   display: block;
-  margin: 20vh 0 0 0;
+  margin: 60px 0 0 0;
   width: 100%;
 }
 
@@ -579,9 +572,254 @@ main {
   color: #b1a9a9;
 }
 
+/* Categories */
+.categories-grid {
+  display: grid;
+  margin: 0 20px 20px 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.category-wrapper {
+  margin-top: 50px;
+}
+
+.category-header {
+  outline: none;
+  vertical-align: baseline;
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  letter-spacing: -0.015em;
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+
+.category-header > h2 > a {
+  font-size: 100%;
+  color: #f42;
+  text-decoration: none;
+}
+
+.category-content {
+  height: 35vw;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.category-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.category-gradient {
+  height: 100%;
+  width: 100%;
+  background: transparent url(../assets/categories-gradient.webp) no-repeat;
+  background-size: 100% 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.category-caption {
+  position: absolute;
+  padding: 14px;
+  bottom: 0;
+  left: 0;
+}
+
+.category-caption > h4 {
+  vertical-align: baseline;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  line-height: 1.5;
+  color: #fff;
+  font-size: 13px;
+  pointer-events: none;
+}
+
+.category-caption > h3 {
+  vertical-align: baseline;
+  font-family: Shentox, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #fff;
+  font-size: 20px;
+}
+
+.category-caption > ul > li {
+  display: inline-block;
+}
+
+.cat-small-image {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+
+.cat-content-bottom {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255,68,34,.06);
+  margin: 2px 0;
+  justify-content: space-between;
+}
+
+.cat-bottom-item {
+  font-size: 100%;
+  display: block;
+  padding: 10px 14px 0;
+}
+
+.cat-bottom-item > h5 {
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: #f42;
+  font-size: 13px;
+}
+
+.cat-bottom-item > h4 {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.25;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  max-height: 56px;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.more-cat-info {
+  color: #555;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.cat-extra-info {
+  color: #f42;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  border-bottom: 1px solid #eee;
+}
+
+.orange-bullet {
+  display: inline-block;
+  color: #f42;
+  margin-right: 10px;
+  margin-left: -15px;
+}
+
+.cat-extra-info > a {
+  color: #555;
+  display: block;
+  padding: 6px 0 6px 14px;
+  position: relative;
+  text-decoration: none;
+}
+
+/* Latest deals */
+#latest-deals {
+  margin: 50px 20px 0 20px;
+}
+
+.latest-deals-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.section-options {
+  color: #f42;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+#latest-deals-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.deals-entry {
+  margin-top: 25px;
+  position: relative;
+}
+
+.discount {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  height: 80px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  z-index: 10;
+}
+
+.discount > p {
+  transform: rotate(45deg);
+  font-size: 14px;
+  font-weight: 700;
+  left: 8px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 20px;
+  width: 100%;
+}
+
+.deals-image {
+  height: 22.4vw;
+  width: 100%;
+  object-fit: cover;
+}
+
+.deals-title {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.deals-old-price {
+  display: inline-block;
+  color: rgb(170, 170, 170);
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: line-through rgb(170, 170, 170);
+}
+
+.deals-new-price {
+  display: inline-block;
+  color: rgb(85, 85, 85);
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
 /* Footer */
 .footer {
   width: 100%;
+  margin-top: 75px;
 }
 
 .footer-icons {
